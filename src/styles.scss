@@ -1,4 +1,11 @@
-.app-container {
-    background-color: #f5e9dc;
-    padding: 30px;
+.categories {
+    &__section {
+        padding: 0 24px 12px;
+        p {
+            margin: 6px 0;
+        }
+        input {
+            margin-left: 24px;
+        }
+    }
 }
